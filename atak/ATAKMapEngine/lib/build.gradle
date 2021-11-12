@@ -185,6 +185,7 @@ dependencies {
          odkImplementation 'gov.tak.kernel:takkernel-aar:0.0.0:release@aar'
          releaseImplementation 'gov.tak.kernel:takkernel-aar:0.0.0:release@aar'
     }
+    implementation 'xerces:xercesImpl:2.12.0'
 }
 
 clean {

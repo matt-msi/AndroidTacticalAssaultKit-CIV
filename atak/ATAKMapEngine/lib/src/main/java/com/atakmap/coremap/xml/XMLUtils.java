@@ -35,7 +35,7 @@ public class XMLUtils {
      */
     public static DocumentBuilderFactory getDocumenBuilderFactory() {
         DocumentBuilderFactory docFactory = DocumentBuilderFactory
-                .newInstance();
+                .newInstance("org.apache.xerces.jaxp.DocumentBuilderFactoryImpl", null);
         try {
             docFactory.setFeature(
                     "http://apache.org/xml/features/disallow-doctype-decl",
