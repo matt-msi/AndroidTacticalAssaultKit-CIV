@@ -461,6 +461,7 @@ public class ImageGalleryFileAdapter extends ImageGalleryBaseAdapter
                         beginMultiSelectAction(which == 0);
                     }
                 });
+                d.setOnCancelListener(dialogInterface -> endMultiSelect());
             }
         });
         multiButton.setVisibility(View.VISIBLE);
